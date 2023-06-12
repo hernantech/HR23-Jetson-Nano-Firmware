@@ -14,5 +14,10 @@ Open a new terminal and route the port to your local machine:
 ```
 ssh -L 1234:localhost:1234 nanoUsername@nanoIPaddress
 ```
+Then go to "localhost:1234" in your browser and start using the notebook.
+
 Jupyterlab may ask for a token, either request it via ssh (using the Jupyterlab commands) or copy it from the other terminal window
-i.e. $jupyter server list
+i.e. $jupyter server list) or copy it from the other terminal window.
+
+
+
